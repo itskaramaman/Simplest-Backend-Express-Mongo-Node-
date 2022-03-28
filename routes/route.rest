@@ -1,0 +1,26 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/62420127148f37b5a6677398
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Spider Man",
+    "subscribedToChannel": "Web Dev Simplified"
+}
+
+
+###
+DELETE http://localhost:3000/subscribers/6241fb3f77245c538d90cce3
+
+
+###
+PATCH http://localhost:3000/subscribers/62420127148f37b5a6677398
+Content-Type: application/json
+
+{
+    "name": "Amazing Spiderman No Coming Home"
+}
